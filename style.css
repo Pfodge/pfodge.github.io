@@ -30,6 +30,7 @@ p {
   text-align: left;
   outline: none;
   font-size: 1.2em;
+    
 }
 
 .active, .collapsible:hover {
