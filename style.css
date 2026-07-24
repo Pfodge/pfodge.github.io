@@ -167,3 +167,15 @@ text-align: center;
 #sitelinks a:hover{
 background-color: #0e3675;
 }
+
+.imageandtext {
+  display: flex;
+}
+
+.imageandtext p {
+  flex: 1 1 70%
+}
+
+.imageandtext img {
+  flex: 1 1 30%;
+}
