@@ -1,0 +1,102 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Teams &amp; Final Setup</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>A Very Random Ocarina of Time Birthday Challenge</h1></p>
+    </header>
+        <h2>Teams</h2>
+        <p>So there's gonna be two teams of six players. The players are categorised by their skill level which determines the difficulty/randomness of their specific game.</p>
+        <table>
+        <tbody>
+            <tr>
+                <th></th>
+                <th>Team Spirit</th>
+                <th>Team Shadow</th>
+            </tr>
+            <tr class="master">
+                <td>Master</td>
+                <td>Conor</td>
+                <td>Andrew H</td>
+            </tr>
+            <tr class="adept">
+                <td>Adept 1</td>
+                <td>Tim</td>
+                <td>Peter H</td>
+            </tr>
+            <tr class="adept">
+                <td>Adept 2</td>
+                <td>Pat</td>
+                <td>Michael H</td>
+            </tr>
+            <tr class="adept">
+                <td>Adept 3</td>
+                <td>Rogue</td>
+                <td>Nick</td>
+            </tr>
+            <tr class="novice">
+                <td>Novice 1</td>
+                <td>Mae</td>
+                <td>Yasi</td>
+            </tr>
+            <tr class="novice">
+                <td>Novice 2</td>
+                <td>Clayton</td>
+                <td>Declan</td>
+            </tr>
+        </tbody>
+        </table>
+        <h2>A Little Bit of Pre-Race Setup</h2>
+        <p>Just a quick thing before the race can begin.</p>
+        <ol>
+            <li>Run SoH and press Esc to bring up the menu</li>
+            <li>Click on <strong>Settings</strong> then click on <strong>Presets</strong></li>
+            <li>Look for <strong>Enhancements - Curated Randomizer</strong> and click on <strong>Apply</strong> next to it</li>
+        </ol>
+        <p>NB: When you want to go back to playing the game normally I'd go back to this menu and apply <strong>Enhancements - Curated First Time Vanilla</strong> </p>
+
+        <h2>Joining the Race</h2>
+        <p></p>
+
+        <aside>Some advice for setting up your controls</aside>
+         <button type="button" class="collapsible">Configuring Controls</button>
+        <div class="content">
+        <ol>
+            <li>When SoH is running, press ESC to open the menu
+            <li>Click on Controls</li>
+            <li>Here's the controls you'll need to assign:</li>
+                <ul>
+                    <li>A is the action/interact button, and also plays a note when you have your ocarina out</li>
+                    <li>B is sword attacks</li>
+                    <li>C←,C↓,C→ and D←,D↓,D→,D↑ are for using items</li>
+                    <li>R is for your shield</li>
+                    <li>Z is targetting lock-on, and also moves the camera behind you</li>
+                    <li>C↑ is to look around in first-person, respond to Navi when says "Hey"</li>
+                    <li>C←,C↓,C→,C↑, and A also play notes when you have your ocarina out</li>
+                    <li>Start is to pause and access your inventory, maps, songs, and other info</li>
+                </ul>
+            <li>If you are using a keyboard: scroll down, click "Camera Controls", and then click "Enable Mouse Controls" to use your mouse when you're aiming the slingshot, bow, or hookshot. The keyboard aiming controls are too sensitive</li>
+        </ol>
+        </div>
+
+        <script>
+        var coll = document.getElementsByClassName("collapsible");
+        var i;
+
+        for (i = 0; i < coll.length; i++) {
+        coll[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var content = this.nextElementSibling;
+            if (content.style.display === "block") {
+            content.style.display = "none";
+            } else {
+            content.style.display = "block";
+            }
+        });
+        }
+        </script>
+</body></html>

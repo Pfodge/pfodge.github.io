@@ -1,23 +1,21 @@
 /* CSS */
 body {
-    background-color: #715821;
-    max-width: 60em;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 2em;
-    padding-right: 2em;
-    color: white;
+  background-color: #715821;
+  max-width: 60em;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+  font-family: arial;
+  line-height: 1.4;
 }
 
 a {
   color: lightcoral;
-}
-
-li {
-  margin-top: 6px;
+  text-shadow: 1px 1px 2px black;
 }
 
 h1, h2 {
+  font-family: serif;
   color: #ff6d6d;
   text-shadow: 1px 1px 2px black;
 }
@@ -47,4 +45,25 @@ p {
   padding: 10px 50px;
   display: none;
   overflow: hidden;
+}
+
+table {
+  margin: 0 auto;
+  font-size: 20px;
+  text-align: center;
+  word-wrap: normal;
+  width: 70%;
+  min-width: 400px;
+}
+
+.master {
+  background-color: black;
+}
+
+.adept {
+  background-color: #43135d;
+}
+
+.novice {
+  background-color: #33501F;
 }
