@@ -180,7 +180,7 @@ background-color: #0e3675;
   padding-right: 10px;
 }
 
-.imageandtext img {
+.imageandtext a {
   flex: 1 1 60%;
   object-fit: contain;
   object-position: top;
