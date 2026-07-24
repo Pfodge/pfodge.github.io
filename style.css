@@ -87,7 +87,7 @@ th {
 
 .masterbutton {
   all: inherit;
-  cursor: pointer;
+  width: 100%;
 }
 
 .masterbutton:hover{
@@ -96,7 +96,7 @@ th {
 
 .adeptbutton {
   all: inherit;
-  cursor: pointer;
+  width: 100%;
 }
 
 .adeptbutton:hover{
@@ -106,17 +106,19 @@ th {
 
 .novicebutton {
   all: inherit;
-  cursor: pointer;
+  width: 100%;
 }
 
 .novicebutton:hover{
   background-color: #55644a;
 }
 
-
+button {
+  width: 100%;
+  cursor: pointer;
+}
 
 dialog {
-  display: flex;
   background-color:  #362c36;
   color: white;
   border-width: 2px
