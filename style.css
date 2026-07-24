@@ -168,14 +168,20 @@ text-align: center;
 background-color: #0e3675;
 }
 
+
 .imageandtext {
   display: flex;
+  margin-bottom: 10px;
 }
 
 .imageandtext p {
-  flex: 1 1 70%
+  flex: 1 1 40%;
+  text-align: right;
+  padding-right: 10px;
 }
 
 .imageandtext img {
-  flex: 1 1 30%;
+  flex: 1 1 60%;
+  object-fit: contain;
+  object-position: top;
 }
