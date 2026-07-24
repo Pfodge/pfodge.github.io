@@ -62,14 +62,38 @@ table {
   min-width: 400px;
 }
 
+th {
+  text-shadow: 1px 1px 2px black;
+}
+
+.emptyrow td {
+  padding-top: 5px;
+}
+
+.serveraddress {
+  background-color: #d62a2a;
+}
+
 .master {
   background-color: black;
 }
-
+.masterslotname {
+  background-color: #474747;
+}
 .adept {
   background-color: #43135d;
 }
 
+.adeptslotname {
+  background-color: #7e26ad;
+
+}
+
 .novice {
   background-color: #33501F;
+}
+
+.noviceslotname {
+  background-color: #55644a;
+
 }
