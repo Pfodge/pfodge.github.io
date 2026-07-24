@@ -135,3 +135,33 @@ dialog {
 dialog p {
   padding: 0 10px;
 }
+
+
+#asynchronousnote {
+border-style:dashed;
+border-width:2px;
+padding: 5px;
+margin: 5px;
+}
+
+#sitelinks {
+display: flex;
+padding: 20px;
+}
+
+#sitelinks a {
+color: lightcoral;
+text-shadow: none;
+text-decoration: none;
+text-shadow: 1px 1px 2px black;
+background-color: #322d1d;
+border-style: inset;
+display: flex;
+padding: 20px;
+flex: 1 1 33%;
+justify-content: center;
+}
+
+#sitelinks a:hover{
+background-color: #0e3675;
+}
