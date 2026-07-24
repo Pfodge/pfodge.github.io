@@ -88,6 +88,7 @@ th {
 .masterbutton {
   all: inherit;
   width: 100%;
+  cursor: pointer;
 }
 
 .masterbutton:hover{
@@ -97,6 +98,7 @@ th {
 .adeptbutton {
   all: inherit;
   width: 100%;
+  cursor: pointer;
 }
 
 .adeptbutton:hover{
@@ -107,6 +109,7 @@ th {
 .novicebutton {
   all: inherit;
   width: 100%;
+  cursor: pointer;
 }
 
 .novicebutton:hover{
