@@ -77,6 +77,9 @@ th {
 .master {
   background-color: black;
 }
+.masterbutton {
+  all: inherit;
+}
 .masterslotname {
   background-color: #474747;
 }

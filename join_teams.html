@@ -3,7 +3,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Teams &amp; Final Setup</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css?v=1.0">
 </head>
 <body>
     <header>
@@ -41,7 +41,8 @@
             <tr class="master">
                 <td>Master</td>
                 <td>Conor</td>
-                <td>Andrew H</td>
+                <td><button class="masterbutton" popovertarget="andrew">Andrew H</button>
+</td>
             </tr>
             <tr class="masterslotname">
                 <td>Slot Name</td>
@@ -125,6 +126,13 @@
             </tr>
         </tbody>
         </table>
+
+        <dialog id="andrew" popover>
+        <p>This dialog was opened using a popovertargetaction attribute.</p>
+        <button popovertarget="andrew" popovertargetaction="hide">Close</button>
+        </dialog>
+
+
         <h2>A Little Bit of Pre-Race Setup</h2>
         <p>Just a quick thing before the race can begin.</p>
         <ol>
