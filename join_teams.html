@@ -28,26 +28,10 @@
                 <td></td>
                 <td></td>
             </tr>
-            <tr>
-                <td>Server Address</td>
-                <td>archipelago.gg</td>
-                <td>archipelago.gg</td>
-            </tr>
-            <tr class="emptyrow">
-                <td style=""></td>
-                <td></td>
-                <td></td>
-            </tr>
             <tr class="master">
                 <td>Master</td>
-                <td>Conor</td>
-                <td><button class="masterbutton" popovertarget="andrew">Andrew H</button>
-</td>
-            </tr>
-            <tr class="masterslotname">
-                <td>Slot Name</td>
-                <td>Master_Player_1</td>
-                <td>Master_Player_1</td>
+                <td><button class="masterbutton" popovertarget="conor">Conor</button></td>
+                <td><button class="masterbutton" popovertarget="andrew">Andrew H</button></td>
             </tr>
             <tr class="emptyrow">
                 <td style=""></td>
@@ -56,13 +40,8 @@
             </tr>
             <tr class="adept">
                 <td>Adept 1</td>
-                <td>Tim</td>
-                <td>Peter H</td>
-            </tr>
-            <tr class="adeptslotname">
-                <td>Slot Name</td>
-                <td>Adept_Player_1</td>
-                <td>Adept_Player_1</td>
+                <td><button class="adeptbutton" popovertarget="tim">Tim</button></td>
+                <td><button class="adeptbutton" popovertarget="peter">Peter H</button></td>
             </tr>
             <tr class="emptyrow">
                 <td style=""></td>
@@ -71,13 +50,8 @@
             </tr>
             <tr class="adept">
                 <td>Adept 2</td>
-                <td>Pat</td>
-                <td>Michael H</td>
-            </tr>
-            <tr class="adeptslotname">
-                <td>Adept 1</td>
-                <td>Adept_Player_2</td>
-                <td>Adept_Player_2</td>
+                <td><button class="adeptbutton" popovertarget="pat">Pat</button></td>
+                <td><button class="adeptbutton" popovertarget="michael">Michael H</button></td>
             </tr>
             <tr class="emptyrow">
                 <td style=""></td>
@@ -86,13 +60,8 @@
             </tr>
             <tr class="adept">
                 <td>Adept 3</td>
-                <td>Rogue</td>
-                <td>Nick</td>
-            </tr>
-            <tr class="adeptslotname">
-                <td>Adept 1</td>
-                <td>Adept_Player_3</td>
-                <td>Adept_Player_3</td>
+                <td><button class="adeptbutton" popovertarget="rogue">Rogue</button></td>
+                <td><button class="adeptbutton" popovertarget="nick">Nick</button></td>
             </tr>
             <tr class="emptyrow">
                 <td style=""></td>
@@ -101,13 +70,8 @@
             </tr>
             <tr class="novice">
                 <td>Novice 1</td>
-                <td>Mae</td>
-                <td>Yasi</td>
-            </tr>
-            <tr class="noviceslotname">
-                <td>Novice 1</td>
-                <td>Novice_Player_1</td>
-                <td>Novice_Player_1</td>
+                <td><button class="novicebutton" popovertarget="jack">Jack</button></td>
+                <td><button class="novicebutton" popovertarget="declan">Declan</button></td>
             </tr>
             <tr class="emptyrow">
                 <td style=""></td>
@@ -116,22 +80,72 @@
             </tr>
             <tr class="novice">
                 <td>Novice 2</td>
-                <td>Clayton</td>
-                <td>Declan</td>
-            </tr>
-            <tr class="noviceslotname">
-                <td>Novice 1</td>
-                <td>Novice_Player_2</td>
-                <td>Novice_Player_2</td>
+                <td><button class="novicebutton" popovertarget="mae">Mae</button></td>
+                <td><button class="novicebutton" popovertarget="clayton">Clayton</button></td>
             </tr>
         </tbody>
         </table>
 
         <dialog id="andrew" popover>
-        <p>This dialog was opened using a popovertargetaction attribute.</p>
+        <p><strong>Server Address</strong><br>archipelago.gg/numbers</p>
+        <p><strong>Slot Name</strong><br>Master_Player</p>
         <button popovertarget="andrew" popovertargetaction="hide">Close</button>
         </dialog>
-
+        <dialog id="conor" popover>
+        <p><strong>Server Address</strong><br>archipelago.gg/numbers</p>
+        <p><strong>Slot Name</strong><br>Master_Player</p>
+        <button popovertarget="conor" popovertargetaction="hide">Close</button>
+        </dialog>
+        <dialog id="tim" popover>
+        <p><strong>Server Address</strong><br>archipelago.gg/numbers</p>
+        <p><strong>Slot Name</strong><br>Adept_Player_1</p>
+        <button popovertarget="tim" popovertargetaction="hide">Close</button>
+        </dialog>
+        <dialog id="peter" popover>
+        <p><strong>Server Address</strong><br>archipelago.gg/numbers</p>
+        <p><strong>Slot Name</strong><br>Adept_Player_1</p>
+        <button popovertarget="peter" popovertargetaction="hide">Close</button>
+        </dialog>
+        <dialog id="pat" popover>
+        <p><strong>Server Address</strong><br>archipelago.gg/numbers</p>
+        <p><strong>Slot Name</strong><br>Adept_Player_2</p>
+        <button popovertarget="pat" popovertargetaction="hide">Close</button>
+        </dialog>
+        <dialog id="michael" popover>
+        <p><strong>Server Address</strong><br>archipelago.gg/numbers</p>
+        <p><strong>Slot Name</strong><br>Adept_Player_2</p>
+        <button popovertarget="michael" popovertargetaction="hide">Close</button>
+        </dialog>
+        <dialog id="rogue" popover>
+        <p><strong>Server Address</strong><br>archipelago.gg/numbers</p>
+        <p><strong>Slot Name</strong><br>Adept_Player_3</p>
+        <button popovertarget="rogue" popovertargetaction="hide">Close</button>
+        </dialog>
+        <dialog id="nick" popover>
+        <p><strong>Server Address</strong><br>archipelago.gg/numbers</p>
+        <p><strong>Slot Name</strong><br>Adept_Player_3</p>
+        <button popovertarget="nick" popovertargetaction="hide">Close</button>
+        </dialog>
+        <dialog id="clayton" popover>
+        <p><strong>Server Address</strong><br>archipelago.gg/numbers</p>
+        <p><strong>Slot Name</strong><br>Novice_Player_1</p>
+        <button popovertarget="clayton" popovertargetaction="hide">Close</button>
+        </dialog>
+        <dialog id="jack" popover>
+        <p><strong>Server Address</strong><br>archipelago.gg/numbers</p>
+        <p><strong>Slot Name</strong><br>Novice_Player_1</p>
+        <button popovertarget="jack" popovertargetaction="hide">Close</button>
+        </dialog>
+        <dialog id="declan" popover>
+        <p><strong>Server Address</strong><br>archipelago.gg/numbers</p>
+        <p><strong>Slot Name</strong><br>Novice_Player_2</p>
+        <button popovertarget="declan" popovertargetaction="hide">Close</button>
+        </dialog>
+        <dialog id="mae" popover>
+        <p><strong>Server Address</strong><br>archipelago.gg/numbers</p>
+        <p><strong>Slot Name</strong><br>Novice_Player_2</p>
+        <button popovertarget="mae" popovertargetaction="hide">Close</button>
+        </dialog>
 
         <h2>A Little Bit of Pre-Race Setup</h2>
         <p>Just a quick thing before the race can begin.</p>

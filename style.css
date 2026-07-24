@@ -77,26 +77,51 @@ th {
 .master {
   background-color: black;
 }
-.masterbutton {
-  all: inherit;
-}
-.masterslotname {
-  background-color: #474747;
-}
 .adept {
   background-color: #43135d;
 }
-
-.adeptslotname {
-  background-color: #7e26ad;
-
-}
-
 .novice {
   background-color: #33501F;
 }
 
-.noviceslotname {
-  background-color: #55644a;
 
+.masterbutton {
+  all: inherit;
+  cursor: pointer;
+}
+
+.masterbutton:hover{
+  background-color: #474747;
+}
+
+.adeptbutton {
+  all: inherit;
+  cursor: pointer;
+}
+
+.adeptbutton:hover{
+  background-color: #7e26ad;
+}
+
+
+.novicebutton {
+  all: inherit;
+  cursor: pointer;
+}
+
+.novicebutton:hover{
+  background-color: #55644a;
+}
+
+
+
+dialog {
+  display: flex;
+  background-color:  #362c36;
+  color: white;
+  border-width: 2px
+}
+
+dialog p {
+  padding: 0 10px;
 }
